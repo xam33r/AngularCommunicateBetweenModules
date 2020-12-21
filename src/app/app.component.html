@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+<app-default titleText="{{title}}" ></app-default> 
+
+<button (click)="loadLazy()"  > Load Lazy</button>
+<ng-container #lazyContainer ></ng-container>
+
+<button (click)="loadMoreLazy()" > Load More Lazy</button>
+<ng-container #moreLazyContainer ></ng-container>
+
+</div>
+
