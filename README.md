@@ -1,11 +1,13 @@
-# LazyLoad Angular Ivy Modules
+# This project demonstrates simple communication between Modules
+
+This project extends functionality from <a href="https://github.com/xam33r/LazyLoadAngularIvyModules"> previous project </a>
 
 This small project demonstrates how how to manually/programmatically lazy load Angular modules with ivy
 
 Run command ng --version to check Angular version
 
 
-#Please make sure you have Angular 8.1.x or higher 
+# Please make sure you have Angular 8.1.x or higher 
 
 enable Ivy by adding following option in angularCompilerOptions inside tsconfig.json 
 "angularCompilerOptions": {
