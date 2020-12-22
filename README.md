@@ -2,7 +2,7 @@
 
 This project extends functionality from <a href="https://github.com/xam33r/LazyLoadAngularIvyModules"> previous project </a>
 
-This small project demonstrates how how to manually/programmatically lazy load Angular modules with ivy
+This small project demonstrates how  to communicate between multiple modules.
 
 Run command ng --version to check Angular version
 
