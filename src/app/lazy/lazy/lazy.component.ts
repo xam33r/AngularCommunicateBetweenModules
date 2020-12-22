@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommunicatorService } from 'src/app/communicator';
 
 @Component({
   selector: 'app-lazy',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LazyComponent implements OnInit {
 
-  constructor() { }
+  constructor(private com:CommunicatorService) { }
 
+  moreLazy:any;
   ngOnInit() {
+
+    this.com.emitMoreLazy().subscribe ( more=>{
+
+    this.moreLazy = more;
+    })
   }
 
+
+  sayIamLazy()
+  {
+    this.com.sayLazy('I am lazy');
+  }
+
+
+  
 }
